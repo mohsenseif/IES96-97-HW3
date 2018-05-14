@@ -1,0 +1,158 @@
+
+.forms {
+    width: 380px;
+    height: 340px;
+    height: border-box;
+    font-size: 12px;
+    font-weight: 300;
+    direction: rtl;
+    color: #666666;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-contact {
+    width: 1020px;
+    height: 500px;
+}
+
+.forms > legend {
+    padding: 10px 10px 0 0 ;
+    color: #3B55E6;
+    font-weight: bold;
+    text-align: right;
+}
+
+.forms > div > div > h4 {
+    color: #3B55E6;
+    font-weight: bold;
+    text-align: right;
+    line-height: 0.75;
+}
+
+.forms > div > div > select {
+    font-family: IRANSans;
+    border-radius: 100px;
+    border-width: 0px;
+    width: 300px;
+    height: 40px;
+    text-align: center !important;
+    background-color: #F0F2F7;
+    color: #B9BED1;
+    outline: none;
+}
+
+.forms > div > div > input {
+    font-family: IRANSans;
+    border: 1px solid white ;
+    border-radius: 100px;
+    width:300px;
+    height: 40px;
+    text-align: center !important;
+    background-color: #F0F2F7;
+    color: #B9BED1;
+    outline: none;
+}
+
+.forms > div > div > input:focus {
+    border: 1px solid #3B55E6;
+    background-color: transparent;
+    color: #B9BED1;
+}
+
+.forms > div > div > textarea {
+    font-family: IRANSans;
+    border: 1px solid white ;
+    border-radius: 18px;
+    width:900px;
+    height: 200px;
+    text-align: right !important;
+    background-color: #F0F2F7;
+    color: #B9BED1;
+    outline: none;
+}
+
+.forms > div > div > textarea:focus {
+
+    border: 1px solid #3B55E6;
+    background-color: transparent;
+    color: #B9BED1;
+}
+
+.submit-btn {
+    font-family: IRANSans;
+    border-width: 0px;
+    border-radius: 100px;
+    width:300px;
+    height: 40px;
+    text-align: center !important;
+    background-color: #3B55E6;
+    color: #B9BED1;
+    justify-content: right;
+    outline: none;
+}
+
+.submit-btn-2 {
+    background-color: transparent;
+    border: 1px solid #3B55E6;
+    color: #3B55E6;
+    width:250px;
+    outline: none;
+}
+
+.submit-btn-2:hover , .submit-btn-2:focus {
+    background-color: #3B55E6;
+    border: 1px solid #3B55E6;
+    color: white;
+    width:250px;
+}
+
+.return-form-gird {
+    display: grid;
+    grid-template-rows: 220px 40px ;
+    width: 300px ;
+    margin: auto ;
+}
+
+.contact-form-grid {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    width: 900px;
+    margin: auto ;
+}
+
+.contact-inputs {
+    width:260px !important;
+    float: right;
+    outline: none;
+}
+
+
+.submit-btn-3 {
+    font-family: IRANSans;
+    border-width: 0px;
+    border-radius: 100px;
+    width:100px;
+    height: 40px;
+    text-align: center !important;
+    background-color: #202020;
+    color: white;
+    margin-top: 20px;
+    outline: none;
+}
+
+
+.about-form {
+    font-family: IRANSans;
+    border-radius: 100px;
+    border-width: 0px;
+    width:300px;
+    height: 40px;
+    text-align: center !important;
+    background-color: #F0F2F7;
+    color: #3B55E6;
+    outline: none;
+}
+
+.about-form:focus {
+    color: #666666;
+}

@@ -1,0 +1,166 @@
+.login-btn {
+    float: right;
+    direction: rtl;
+    background-color: #666666;
+    color: white;
+    border: 1px solid #666666;
+}
+
+.login-btn:hover {
+    float: right;
+    direction: rtl;
+    background-color: #3B55E6;
+    color: white;
+    border: 1px solid #3B55E6;
+}
+
+.register-btn {
+    background-color: transparent;
+    float: right;
+    direction: rtl;
+    color: black;
+    border: 1px solid #666666;
+}
+
+.register-btn:hover {
+    background-color: transparent;
+    float: right;
+    direction: rtl;
+    color: #3B55E6;
+    border: 1px solid #3B55E6;
+}
+
+.button {
+    font-family: IRANSans;
+    width: 137px;
+    height: 37px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 45px;
+    padding: auto;
+    margin: 10px 5px;
+    outline: none;
+}
+
+.search-form {
+    float: left;
+    width: 237px;
+    height: 37px;
+    border-radius: 45px;
+    text-align: center !important;
+    border: 1px solid #666666;
+    margin: 10px 5px;
+    outline: none;
+}
+
+.search-form:focus {
+    border: 1px solid #3B55E6;
+}
+
+.search-box {
+    margin: 10px 5px;
+    z-index: -1;
+}
+
+.search-icon {
+    float: left;
+    margin: auto;
+}
+
+.text-menu-flex {
+    margin: auto;
+    width: 870px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.text-menu-item {
+    font-size: 17px;
+    color: #666666;
+    border-bottom : 1px solid transparent;
+    padding: 1px;
+    transition-duration: 0.5s;
+}
+
+.text-menu-item:hover {
+    font-size: 17px;
+    color: #3B55E6;
+    border-bottom : 1px solid #3B55E6;
+    padding: 1px;
+
+}
+
+.menu-flex {
+
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-bottom: 20px;
+}
+
+.menu-item {
+    width: 180px;
+    height: 98px;
+    color: #666666;
+    border : 1px solid #666666;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+    transition-duration: 0.5s;
+    cursor: pointer;
+
+}
+
+.menu-item:hover {
+    color: #3B55E6;
+    border : 1px solid #3B55E6;
+}
+
+
+.menu-item:active {
+    color: white;
+    background-color: #3B55E6;
+    border : 1px solid #3B55E6;
+}
+
+
+.menu-item-active {
+    width: 180px;
+    height: 98px;
+    color: #3B55E6;
+    border : 1px solid #3B55E6;
+    border-radius: 5px;
+}
+
+.menu-item-inner {
+    font-size: 17px;
+    padding: 10px;
+}
+
+.menu-item-icon {
+    fill: #666666;
+    height: 40px;
+    width: 40px;
+}
+
+.menu-item-icon:hover {
+    fill: #3B55E6;
+}
+
+
+.menu-item-icon:active {
+    fill: white;
+}
+
+.menu-item-inner > a {
+    color: #666666;
+}
+
+.menu-item-inner > a:active {
+    color: white;
+}

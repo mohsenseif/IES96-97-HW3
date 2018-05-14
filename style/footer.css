@@ -1,0 +1,46 @@
+.gird-footer {
+    margin-top: 100px;
+    padding-top: 50px;
+    background-color: #EFEFEF;
+    display: grid;
+    height: 200px;
+    grid-template-columns: 480px 240px 240px 240px ;
+    justify-content: center;
+}
+
+.p-footer {
+    font-size: 14px ;
+    width: 410px ;
+    direction: rtl;
+    text-align: right;
+}
+
+.gird-footer > div > h4 {
+    font-size: 16px ;
+    direction: rtl;
+    text-align: center;
+}
+
+.gird-footer-menu {
+    font-weight: 300;
+    font-size: 15px ;
+    direction: rtl;
+    text-align: center;
+    line-height: 0.7;
+}
+
+.gird-footer-menu > p:hover {
+    color: #3B55E6;
+}
+
+.footer-icons {
+    fill: #666666;
+    height: 45px;
+    width: 45px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.footer-icons:hover {
+    fill: #3B55E6;
+}
